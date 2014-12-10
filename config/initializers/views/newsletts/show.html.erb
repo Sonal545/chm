@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @newslett.date %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @newslett.name %>
+</p>
+
+<%= link_to 'Edit', edit_newslett_path(@newslett) %> |
+<%= link_to 'Back', newsletts_path %>
